@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto ;
+    padding: 0 15px;
+    background-color: #ffff00;
+  }
+   .rasm {
+    width: 200px;
+   
+    
+   }
+    
+   .wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    align-items: center;
+    
+   }
+
+   .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
